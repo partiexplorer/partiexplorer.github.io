@@ -29,8 +29,6 @@ jobs:
       - run: env | grep CI
       - run: CI=false env | grep CI
       - run: env
-        env:
-          CI: true
       - run: mkdocs gh-deploy --force
         env:
           CI: true
