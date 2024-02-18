@@ -28,4 +28,5 @@ jobs:
       # - run: pip install mkdocs-rss-plugin
       - run: mkdocs gh-deploy --force
         env:
+          CI: true
           MKDOCS_GIT_COMMITTERS_APIKEY: ${{secrets.MKDOCS_GIT_COMMITTERS_APIKEY}}
