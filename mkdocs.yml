@@ -1,9 +1,28 @@
-site_name: MkDocs - Parti explorer
+# Copyright (c) 2024 Stéphane Bouchard <partiexplorer@gmail.com>
+
+# Project information
+site_name: Parti explorer
+site_url: https://partiexplorer.github.io/
+site_author: Stéphane Bouchard
+site_description: >-
+  Documentation des aventures de Parti explorer en camion aménagé avec tous ce qui entoure ce projet.
+
+# Repository
+repo_name: partiexplorer.github.io
+repo_url: https://github.com/partiexplorer/partiexplorer.github.io
+
+copyright: |
+  &copy; 2024 <a href="https://github.com/partiexplorer" target="_blank" rel="noopener">Parti explorer</a>
+
+# Configuration
 theme:
   name: material
+  language: fr
   features:
     - navigation.tabs
     - navigation.sections
+    - navigation.indexes
+    - navigation.footer
     - toc.integrate
     - navigation.top
     - search.suggest
@@ -11,32 +30,45 @@ theme:
     - content.tabs.link
     - content.code.annotation
     - content.code.copy
-  language: en
   palette:
-    - scheme: default
-      toggle:
-        icon: material/toggle-switch-off-outline 
-        name: Switch to dark mode
-      primary: teal
-      accent: purple 
-    - scheme: slate 
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: indigo
+      accent: indigo
       toggle:
         icon: material/toggle-switch
-        name: Switch to light mode    
-      primary: teal
-      accent: lime
+        name: Switch to dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: black
+      accent: indigo
+      toggle:
+        icon: material/toggle-switch-off
+        name: Switch to light mode
 
+# Plugins
+plugins:
+  - blog
+  - search:
+      separator: '[\s\u200b\-_,:!=\[\]()"`/]+|\.(?!\d)|&[lg]t;|(?!\b)(?=[A-Z][a-z])'
+
+# Additional configuration
 extra:
   social:
-    - icon: fontawesome/brands/github-alt
-      link: https://github.com/partiexplorer
-    - icon: fontawesome/brands/twitter
-      link: https://twitter.com/Partiexplorer
-    - icon: fontawesome/brands/linkedin
-      link: https://www.linkedin.com/in/sbouchard25/
     - icon: fontawesome/brands/youtube
-      link: https://www.youtube.com/@partiexplorer/
+      link: https://youtube.com/@partiexplorer/
+    - icon: fontawesome/brands/facebook
+      link: https://facebook.com/partiexplorer
+    - icon: fontawesome/brands/instagram
+      link: https://instagram.com/partiexplorer
+    - icon: material/email
+      link: mailto:partiexplorer@gmail.com
+      name: partiexplorer@gmail.com
 
+extra_css:
+  - stylesheets/extra.css
+
+# Extensions
 markdown_extensions:
   - pymdownx.highlight:
       anchor_linenums: true
@@ -50,9 +82,15 @@ markdown_extensions:
   - pymdownx.superfences
   - pymdownx.mark
   - attr_list
+  - md_in_html
   - pymdownx.emoji:
-      emoji_index: !!python/name:materialx.emoji.twemoji
-      emoji_generator: !!python/name:materialx.emoji.to_svg
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
 
-copyright: |
-  &copy; 2024 <a href="https://github.com/partiexplorer"  target="_blank" rel="noopener">Parti explorer</a>
+# Page tree
+nav:
+- Accueil: index.md
+- Blog:
+  - blog/index.md
+- Projets: projets.md
+- À propos: apropos.md
