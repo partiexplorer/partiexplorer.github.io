@@ -72,13 +72,13 @@ plugins:
       enabled: !ENV [CI, false]
       repository: partiexplorer/partiexplorer.github.io
       branch: main
-  # - rss:
-  #     match_path: blog/posts/.*
-  #     date_from_meta:
-  #       as_creation: date
-  #     categories:
-  #       - categories
-  #       - tags
+  - rss:
+      match_path: blog/posts/.*
+      date_from_meta:
+        as_creation: date
+      categories:
+        - categories
+        - tags
 
 # Additional configuration
 extra:
