@@ -60,8 +60,12 @@ plugins:
   - search:
       separator: '[\s\u200b\-_,:!=\[\]()"`/]+|\.(?!\d)|&[lg]t;|(?!\b)(?=[A-Z][a-z])'
   - git-revision-date-localized:
+      type: datetime
+      timezone: America/Montreal
+      locale: fr
       enable_creation_date: true
-      type: iso_datetime
+      # exclude:
+      #   - index.md
   - git-committers:
       repository: partiexplorer/partiexplorer.github.io
       branch: main
