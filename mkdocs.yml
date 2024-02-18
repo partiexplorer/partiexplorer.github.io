@@ -19,6 +19,8 @@ theme:
   name: material
   language: fr
   features:
+    # - content.action.edit
+    # - content.action.view
     - content.code.annotation
     - content.code.copy
     - content.tabs.link
@@ -49,9 +51,9 @@ theme:
   #   test: Roboto
   #   code: Roboto Mono
   icon:
-    repo: fontawesome/brands/git-alt
-    edit: material/pencil
-    view: material/eye
+    repo: fontawesome/brands/github
+    # edit: material/pencil
+    # view: material/eye
 
 
 # Plugins
@@ -67,6 +69,7 @@ plugins:
       # exclude:
       #   - index.md
   - git-committers:
+      enabled: !ENV [CI, false]
       repository: partiexplorer/partiexplorer.github.io
       branch: main
   # - rss:
