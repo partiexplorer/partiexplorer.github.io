@@ -27,8 +27,8 @@ jobs:
       # - run: pip install pillow cairosvg
       # - run: pip install mkdocs-rss-plugin
       - run: env | grep CI
-      - run: CI=true env | grep CI
-      - run: env | grep CI
+      - run: CI=false env | grep CI
+      - run: env
         env:
           CI: true
       - run: mkdocs gh-deploy --force
