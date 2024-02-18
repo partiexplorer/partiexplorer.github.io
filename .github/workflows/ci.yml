@@ -26,6 +26,11 @@ jobs:
       - run: pip install mkdocs-git-committers-plugin-2
       # - run: pip install pillow cairosvg
       # - run: pip install mkdocs-rss-plugin
+      - run: env | grep CI
+      - run: CI=true env | grep CI
+      - run: env | grep CI
+        env:
+          CI: true
       - run: mkdocs gh-deploy --force
         env:
           CI: true
