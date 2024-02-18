@@ -31,5 +31,4 @@ jobs:
       - run: env
       - run: mkdocs gh-deploy --force
         env:
-          CI: true
           MKDOCS_GIT_COMMITTERS_APIKEY: ${{secrets.MKDOCS_GIT_COMMITTERS_APIKEY}}
