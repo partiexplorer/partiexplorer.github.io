@@ -8,7 +8,7 @@ site_description: >-
   Documentation des aventures de Parti explorer en camion aménagé avec tous ce qui entoure ce projet.
 
 # Repository
-repo_name: partiexplorer.github.io
+repo_name: partiexplorer/partiexplorer.github.io
 repo_url: https://github.com/partiexplorer/partiexplorer.github.io
 
 copyright: |
@@ -19,17 +19,17 @@ theme:
   name: material
   language: fr
   features:
+    - content.code.annotation
+    - content.code.copy
+    - content.tabs.link
     - navigation.tabs
     - navigation.sections
     - navigation.indexes
     - navigation.footer
-    - toc.integrate
     - navigation.top
     - search.suggest
     - search.highlight
-    - content.tabs.link
-    - content.code.annotation
-    - content.code.copy
+    - toc.integrate
   palette:
     - media: "(prefers-color-scheme: light)"
       scheme: default
@@ -45,12 +45,33 @@ theme:
       toggle:
         icon: material/toggle-switch-off
         name: Switch to light mode
+  # font:
+  #   test: Roboto
+  #   code: Roboto Mono
+  icon:
+    repo: fontawesome/brands/git-alt
+    edit: material/pencil
+    view: material/eye
+
 
 # Plugins
 plugins:
   - blog
   - search:
       separator: '[\s\u200b\-_,:!=\[\]()"`/]+|\.(?!\d)|&[lg]t;|(?!\b)(?=[A-Z][a-z])'
+  - git-revision-date-localized:
+      enable_creation_date: true
+      type: iso_datetime
+  - git-committers:
+      repository: partiexplorer/partiexplorer.github.io
+      branch: main
+  # - rss:
+  #     match_path: blog/posts/.*
+  #     date_from_meta:
+  #       as_creation: date
+  #     categories:
+  #       - categories
+  #       - tags
 
 # Additional configuration
 extra:
@@ -84,13 +105,18 @@ markdown_extensions:
   - attr_list
   - md_in_html
   - pymdownx.emoji:
-      emoji_index: !!python/name:material.extensions.emoji.twemoji
       emoji_generator: !!python/name:material.extensions.emoji.to_svg
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
 
 # Page tree
 nav:
 - Accueil: index.md
+- Projets:
+#  - Projets: projets/projets.md
+  - Voyager en camion: projets/voyager-en-camion.md
+  - Véhicules: projets/vehicules.md
+  - Technologies: projets/techno.md
+  - Impression 3D: projets/3dprint.md
 - Blog:
   - blog/index.md
-- Projets: projets.md
 - À propos: apropos.md
