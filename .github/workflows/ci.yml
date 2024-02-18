@@ -27,3 +27,5 @@ jobs:
       # - run: pip install pillow cairosvg
       # - run: pip install mkdocs-rss-plugin
       - run: mkdocs gh-deploy --force
+        env:
+          MKDOCS_GIT_COMMITTERS_APIKEY: ${{secrets.MKDOCS_GIT_COMMITTERS_APIKEY}}
