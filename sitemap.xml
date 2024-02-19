@@ -2,47 +2,62 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
          <loc>https://partiexplorer.github.io/</loc>
-         <lastmod>2024-02-18</lastmod>
+         <lastmod>2024-02-19</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://partiexplorer.github.io/apropos/</loc>
-         <lastmod>2024-02-18</lastmod>
+         <lastmod>2024-02-19</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://partiexplorer.github.io/blog/</loc>
-         <lastmod>2024-02-18</lastmod>
+         <lastmod>2024-02-19</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://partiexplorer.github.io/blog/2024/02/17/je-suis-maintenant-blogueur/</loc>
-         <lastmod>2024-02-18</lastmod>
+         <lastmod>2024-02-19</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://partiexplorer.github.io/projets/3dprint/</loc>
-         <lastmod>2024-02-18</lastmod>
+         <lastmod>2024-02-19</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://partiexplorer.github.io/projets/techno/</loc>
-         <lastmod>2024-02-18</lastmod>
+         <lastmod>2024-02-19</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://partiexplorer.github.io/projets/vehicules/</loc>
-         <lastmod>2024-02-18</lastmod>
+         <lastmod>2024-02-19</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://partiexplorer.github.io/projets/voyager-en-camion/</loc>
-         <lastmod>2024-02-18</lastmod>
+         <lastmod>2024-02-19</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://partiexplorer.github.io/voyages/baie-james/</loc>
+         <lastmod>2024-02-19</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://partiexplorer.github.io/voyages/route138/</loc>
+         <lastmod>2024-02-19</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://partiexplorer.github.io/voyages/tqt/</loc>
+         <lastmod>2024-02-19</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://partiexplorer.github.io/blog/archive/2024/</loc>
-         <lastmod>2024-02-18</lastmod>
+         <lastmod>2024-02-19</lastmod>
          <changefreq>daily</changefreq>
     </url>
 </urlset>
