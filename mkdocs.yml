@@ -119,11 +119,14 @@ markdown_extensions:
 nav:
 - Accueil: index.md
 - Projets:
-#  - Projets: projets/projets.md
   - Voyager en camion: projets/voyager-en-camion.md
   - Véhicules: projets/vehicules.md
   - Technologies: projets/techno.md
   - Impression 3D: projets/3dprint.md
+- Voyages:
+  - La route 138: voyages/route138.md
+  - La Baie-James: voyages/baie-james.md
+  - Les Sentiers TQT: voyages/tqt.md
 - Blog:
   - blog/index.md
 - À propos: apropos.md
