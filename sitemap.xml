@@ -41,7 +41,17 @@
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://partiexplorer.github.io/voyages/baie-james/</loc>
+         <loc>https://partiexplorer.github.io/voyages/baie-james-etape-1/</loc>
+         <lastmod>2024-02-19</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://partiexplorer.github.io/voyages/baie-james-etape-2/</loc>
+         <lastmod>2024-02-19</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://partiexplorer.github.io/voyages/baie-james-etape-3/</loc>
          <lastmod>2024-02-19</lastmod>
          <changefreq>daily</changefreq>
     </url>
