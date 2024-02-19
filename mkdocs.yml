@@ -124,9 +124,12 @@ nav:
   - Technologies: projets/techno.md
   - Impression 3D: projets/3dprint.md
 - Voyages:
-  - La route 138: voyages/route138.md
-  - La Baie-James: voyages/baie-james.md
-  - Les Sentiers TQT: voyages/tqt.md
+  - Route 138: voyages/route138.md
+  - Eeyou Itchee Baie-James:
+    - Direction Nord: voyages/baie-james-etape-1.md
+    - Immensité de la nature: voyages/baie-james-etape-2.md
+    - Retour en douceur: voyages/baie-james-etape-3.md
+  - Sentiers Trans-Québec Trail: voyages/tqt.md
 - Blog:
   - blog/index.md
 - À propos: apropos.md
