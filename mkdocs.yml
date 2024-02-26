@@ -17,6 +17,7 @@ copyright: |
 # Configuration
 theme:
   name: material
+  custom_dir: overrides
   language: fr
   features:
     # - content.action.edit

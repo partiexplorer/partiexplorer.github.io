@@ -2,6 +2,7 @@
 authors:
   - partiexplorer
 date: 2024-02-25
+comments: true
 tags:
     - Canada
     - Québec
