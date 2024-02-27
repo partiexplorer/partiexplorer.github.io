@@ -94,8 +94,13 @@ extra:
       link: mailto:partiexplorer@gmail.com
       name: partiexplorer@gmail.com
 
+extra_javascript:
+  - /assets/leaflet.js
+  - /assets/leaflet-gpx.js
+
 extra_css:
-  - stylesheets/extra.css
+  - /assets/leaflet.css
+  - /stylesheets/extra.css
 
 # Extensions
 markdown_extensions:

@@ -13,7 +13,33 @@ Mon exploration de la route 138 vers Kegaska ma fait parcourir
 
 468.6km
 
-![track](../assets/images/route138/track_2022-10-23.png){ width="480" }
+<div id="mapid" style="height: 400px;width: 600px"></div>
+
+<script type="text/javascript">
+  document.addEventListener("DOMContentLoaded", function() {
+
+    var map = L.map('mapid');
+
+    L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+        maxZoom: 12,
+        attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a>'
+    }).addTo(map);
+
+    var gpx = '/assets/gpx/2022-10-23_LaPrairie-Tadoussac.gpx'; // URL to your GPX file or the GPX itself
+    new L.GPX(gpx, {
+      async: true,
+      marker_options: {
+        startIconUrl: '',
+        endIconUrl: '',
+        shadowUrl: ''
+      }
+    }).on('loaded', function(e) {
+      map.fitBounds(e.target.getBounds());
+      // e.target.get_distance()
+    }).addTo(map);
+
+  })
+</script>
 
 ## Tadoussac - Franquelin
 
