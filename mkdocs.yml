@@ -100,9 +100,9 @@ extra_javascript:
   - /assets/leaflet.fullscreen.min.js
 
 extra_css:
-  - /stylesheets/leaflet.css
   - /stylesheets/extra.css
-  - /stylesheets/leaflet.fullscreen.css
+  - /assets/leaflet.css
+  - /assets/leaflet.fullscreen.css
 
 # Extensions
 markdown_extensions:
