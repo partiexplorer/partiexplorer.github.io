@@ -97,10 +97,12 @@ extra:
 extra_javascript:
   - /assets/leaflet.js
   - /assets/leaflet-gpx.js
+  - /assets/leaflet.fullscreen.min.js
 
 extra_css:
-  - /assets/leaflet.css
+  - /stylesheets/leaflet.css
   - /stylesheets/extra.css
+  - /stylesheets/leaflet.fullscreen.css
 
 # Extensions
 markdown_extensions:

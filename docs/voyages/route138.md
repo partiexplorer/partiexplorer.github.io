@@ -18,12 +18,19 @@ Mon exploration de la route 138 vers Kegaska ma fait parcourir
 <script type="text/javascript">
   document.addEventListener("DOMContentLoaded", function() {
 
-    var map = L.map('mapid');
+    // Create a new map with a fullscreen button:
+    var map = new L.Map('mapid', {
+        fullscreenControl: {
+            pseudoFullscreen: true // if true, fullscreen to page width and height
+        }
+    });
 
     L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
         maxZoom: 12,
         attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a>'
     }).addTo(map);
+
+    L.control.scale({imperial: false}).addTo(map);
 
     var gpx = '/assets/gpx/2022-10-23_LaPrairie-Tadoussac.gpx'; // URL to your GPX file or the GPX itself
     new L.GPX(gpx, {
