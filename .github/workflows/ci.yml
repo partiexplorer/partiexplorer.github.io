@@ -1,4 +1,4 @@
-name: ci 
+name: ci
 on:
   push:
     branches:
@@ -26,6 +26,7 @@ jobs:
       - run: pip install mkdocs-git-committers-plugin-2
       - run: pip install mkdocs-rss-plugin
       - run: pip install pillow cairosvg
+      - run: pip install mkdocs-glightbox
       - run: mkdocs gh-deploy --force
         env:
           MKDOCS_GIT_COMMITTERS_APIKEY: ${{ secrets.MKDOCS_GIT_COMMITTERS_APIKEY }}

@@ -80,6 +80,7 @@ plugins:
       categories:
         - categories
         - tags
+  - glightbox
 
 # Additional configuration
 extra:
@@ -126,18 +127,18 @@ markdown_extensions:
 # Page tree
 nav:
 - Accueil: index.md
-- Projets:
-  - Voyager en camion: projets/voyager-en-camion.md
-  - Véhicules: projets/vehicules.md
-  - Technologies: projets/techno.md
-  - Impression 3D: projets/3dprint.md
-- Voyages:
+- Blog:
+  - blog/index.md
+- Périples:
   - Route 138: voyages/route138.md
   - Eeyou Itchee Baie-James:
     - Direction Nord: voyages/baie-james-etape-1.md
     - Immensité de la nature: voyages/baie-james-etape-2.md
     - Retour en douceur: voyages/baie-james-etape-3.md
   - Sentiers Trans-Québec Trail: voyages/tqt.md
-- Blog:
-  - blog/index.md
+- Projets:
+  - Voyager en camion: projets/voyager-en-camion.md
+  - Véhicules: projets/vehicules.md
+  - Technologies: projets/techno.md
+  - Impression 3D: projets/3dprint.md
 - À propos: apropos.md
