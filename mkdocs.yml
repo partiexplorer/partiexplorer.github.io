@@ -130,9 +130,9 @@ nav:
 - Blog:
   - blog/index.md
 - Périples:
-  - Route 138: voyages/route138.md
-  - Eeyou Itchee Baie-James: voyages/eeyou-itchee-baie-james.md
-  - Sentiers Trans-Québec Trail: voyages/tqt.md
+  - Route 138: periples/route138.md
+  - Eeyou Itchee Baie-James: periples/eeyou-itchee-baie-james.md
+  - Sentiers Trans-Québec Trail: periples/tqt.md
 - Projets:
   - Voyager en camion: projets/voyager-en-camion.md
   - Véhicules: projets/vehicules.md
