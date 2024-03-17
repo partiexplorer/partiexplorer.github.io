@@ -2,82 +2,72 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
          <loc>https://partiexplorer.github.io/</loc>
-         <lastmod>2024-03-04</lastmod>
+         <lastmod>2024-03-17</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://partiexplorer.github.io/apropos/</loc>
-         <lastmod>2024-03-04</lastmod>
+         <lastmod>2024-03-17</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://partiexplorer.github.io/blog/</loc>
-         <lastmod>2024-03-04</lastmod>
+         <lastmod>2024-03-17</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://partiexplorer.github.io/blog/2024/02/25/d%C3%A9part-imminent-pour-lest-du-canada/</loc>
-         <lastmod>2024-03-04</lastmod>
+         <lastmod>2024-03-17</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://partiexplorer.github.io/blog/2024/02/17/je-suis-maintenant-blogueur/</loc>
-         <lastmod>2024-03-04</lastmod>
+         <lastmod>2024-03-17</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://partiexplorer.github.io/blog/2024/03/03/r%C3%A9capitulatif-202409/</loc>
-         <lastmod>2024-03-04</lastmod>
+         <lastmod>2024-03-17</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://partiexplorer.github.io/periples/eeyou-itchee-baie-james/</loc>
+         <lastmod>2024-03-17</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://partiexplorer.github.io/periples/route138/</loc>
+         <lastmod>2024-03-17</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://partiexplorer.github.io/periples/tqt/</loc>
+         <lastmod>2024-03-17</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://partiexplorer.github.io/projets/3dprint/</loc>
-         <lastmod>2024-03-04</lastmod>
+         <lastmod>2024-03-17</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://partiexplorer.github.io/projets/techno/</loc>
-         <lastmod>2024-03-04</lastmod>
+         <lastmod>2024-03-17</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://partiexplorer.github.io/projets/vehicules/</loc>
-         <lastmod>2024-03-04</lastmod>
+         <lastmod>2024-03-17</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://partiexplorer.github.io/projets/voyager-en-camion/</loc>
-         <lastmod>2024-03-04</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
-         <loc>https://partiexplorer.github.io/voyages/baie-james-etape-1/</loc>
-         <lastmod>2024-03-04</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
-         <loc>https://partiexplorer.github.io/voyages/baie-james-etape-2/</loc>
-         <lastmod>2024-03-04</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
-         <loc>https://partiexplorer.github.io/voyages/baie-james-etape-3/</loc>
-         <lastmod>2024-03-04</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
-         <loc>https://partiexplorer.github.io/voyages/route138/</loc>
-         <lastmod>2024-03-04</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
-         <loc>https://partiexplorer.github.io/voyages/tqt/</loc>
-         <lastmod>2024-03-04</lastmod>
+         <lastmod>2024-03-17</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://partiexplorer.github.io/blog/archive/2024/</loc>
-         <lastmod>2024-03-04</lastmod>
+         <lastmod>2024-03-17</lastmod>
          <changefreq>daily</changefreq>
     </url>
 </urlset>
