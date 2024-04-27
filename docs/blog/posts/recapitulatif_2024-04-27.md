@@ -9,7 +9,7 @@ tags:
     - Québec
 ---
 
-# Récapitulatif 2024-04-27
+# Récapitulatif - 2024-04-27
 
 ![defender-waiting](/assets/images/blog/defender-waiting.jpg "Defender qui attend le départ"){ width="240" }
 

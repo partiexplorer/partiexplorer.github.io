@@ -9,9 +9,9 @@ tags:
     - Québec
 ---
 
-# Récapitulatif 2024.09
+# Récapitulatif - 2024-03-03
 
-Récapitulatif des tâches accomplies par catégorie lors de la semaine 2024.09
+Récapitulatif des tâches accomplies par catégorie
 
 ## Camion
 
