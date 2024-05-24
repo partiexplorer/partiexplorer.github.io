@@ -91,9 +91,6 @@ extra:
       link: https://facebook.com/partiexplorer
     - icon: fontawesome/brands/instagram
       link: https://instagram.com/partiexplorer
-    - icon: material/email
-      link: mailto:partiexplorer@gmail.com
-      name: partiexplorer@gmail.com
 
 extra_javascript:
   - /assets/leaflet.js
