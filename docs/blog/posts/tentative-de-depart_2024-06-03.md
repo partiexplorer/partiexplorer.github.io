@@ -3,7 +3,7 @@ draft: false
 authors:
   - partiexplorer
 date: 2024-06-03
-comments: true
+comments: false
 tags:
     - Canada
     - Québec
