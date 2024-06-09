@@ -1,3 +1,7 @@
+---
+comments: false
+---
+
 # Direction Nord
 
 Le périple de la Baie-James vers Caniapiscau a été d'une durée de 23 jours.

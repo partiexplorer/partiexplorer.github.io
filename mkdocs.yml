@@ -127,6 +127,7 @@ nav:
 - Blog:
   - blog/index.md
 - Périples:
+  - L'Est du Canada: periples/est-du-canada.md
   - Route 138: periples/route138.md
   - Eeyou Itchee Baie-James: periples/eeyou-itchee-baie-james.md
   - Sentiers Trans-Québec Trail: periples/tqt.md
