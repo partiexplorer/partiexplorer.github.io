@@ -11,7 +11,7 @@ tags:
 
 # Jour 7 - Périple des Amériques
 
-🇨🇦 Sépaq - Port-Cartier-Sept-Îles, QC --> Longue-Pointe-de-Mingan
+🇨🇦 Sépaq - Port-Cartier-Sept-Îles, QC --> Longue-Pointe-de-Mingan, QC
 
 |  Étape  |   Cumulés   |
 |---------|-------------|
