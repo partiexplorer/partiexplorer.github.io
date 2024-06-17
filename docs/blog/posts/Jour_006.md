@@ -11,7 +11,7 @@ tags:
 
 # Jour 6 - Périple des Amériques
 
-🇨🇦 Franquelin, QC --> Réserve faunique de Port-Cartier-Sept-îles, QC
+🇨🇦 Franquelin, QC --> Sépaq - Port-Cartier-Sept-Îles, QC
 
 |  Étape  |   Cumulés   |
 |---------|-------------|
