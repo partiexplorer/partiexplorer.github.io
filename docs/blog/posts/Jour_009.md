@@ -17,5 +17,4 @@ tags:
 |---------|-------------|
 |  312 km |     3174 km |
 
-Même si j'ai roulé une bonne parti de la journée, je suis encore en train de savourer mon séjour sur la Pointe de Kégaska.
-
+Même si j'ai roulé une bonne partie de la journée, je suis encore en train de savourer avec amour mon séjour à la Pointe de Kégaska. Chaque instant passé à Kégaska est un véritable enchantement, une rencontre avec la beauté sauvage qui fait battre mon cœur un peu plus fort.
