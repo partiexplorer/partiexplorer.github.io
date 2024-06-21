@@ -9,7 +9,7 @@ tags:
     - Québec
 ---
 
-# Jour 12 - Périple des Amériques
+# Jour 11 - Périple des Amériques
 
 🇨🇦 Franquelin, QC --> Manic-5, QC --> Gagnon, QC
 
